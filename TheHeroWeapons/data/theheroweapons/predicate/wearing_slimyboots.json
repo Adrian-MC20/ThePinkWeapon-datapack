@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "feet": {
+        "items": ["minecraft:leather_boots"],
+        "components": {
+          "minecraft:item_name": { "text": "Slimy Boots", "color": "#44DD44", "italic": false }
+        }
+      }
+    }
+  }
+}

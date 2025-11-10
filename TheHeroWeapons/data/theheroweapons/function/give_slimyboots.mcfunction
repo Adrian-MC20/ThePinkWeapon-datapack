@@ -1,0 +1,1 @@
+give @p minecraft:leather_boots[item_name={"text":"Slimy Boots","color":"#44DD44","italic":false},lore=[{"text":"Bouncy, gooey speedsters.","color":"#668866","italic":false}],item_model="theheroweapons:slimyboots",max_stack_size=1]

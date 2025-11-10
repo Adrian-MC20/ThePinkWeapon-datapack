@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": "minecraft:slime_ball",
+    "B": "minecraft:leather_boots"
+  },
+  "pattern": [
+    " B ",
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "id": "minecraft:leather_boots",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": { "text": "Slimy Boots", "color": "#44DD44", "italic": false },
+      "minecraft:item_model": "theheroweapons:slimyboots",
+      "minecraft:lore": [
+        { "text": "Bouncy, gooey speedsters.", "color": "#668866", "italic": false }
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}
