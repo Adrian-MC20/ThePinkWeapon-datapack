@@ -1,0 +1,1 @@
+give @p minecraft:golden_sword[item_name={"text":"Pink Weapon","color":"#CC55AA","italic":false},lore=[{"text":"Classic weapon for the brave","color":"#AA1177","italic":false}],item_model="theheroweapons:pinkweapon",max_damage=25,attribute_modifiers=[{id:"theheroweapons:pinkweapon.damage",type:"minecraft:attack_damage",amount:106.0,operation:"add_value",slot:"mainhand"}]]

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "minecraft:rotten_flesh",
+    "E": "minecraft:egg",
+    "S": "minecraft:fermented_spider_eye",
+    "G": "minecraft:golden_sword"
+  },
+  "pattern": [
+    " M ",
+    " G ",
+    "ESE"
+  ],
+  "result": {
+    "id": "minecraft:golden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": { "text": "Pink Weapon", "color": "#CC55AA", "italic": false },
+      "minecraft:lore": [
+        { "text": "Classic weapon for the brave", "color": "#AA1177", "italic": false }
+      ],
+      "minecraft:item_model": "theheroweapons:pinkweapon",
+      "minecraft:max_damage": 25,
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "theheroweapons:pinkweapon.damage",
+          "type": "minecraft:attack_damage",
+          "amount": 106.0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}
