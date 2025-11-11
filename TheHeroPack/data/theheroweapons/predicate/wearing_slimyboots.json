@@ -6,7 +6,7 @@
       "feet": {
         "items": ["minecraft:leather_boots"],
         "components": {
-          "minecraft:item_name": { "text": "Slimy Boots", "color": "#44DD44", "italic": false }
+          "minecraft:item_model": "theheroweapons:slimyboots"
         }
       }
     }

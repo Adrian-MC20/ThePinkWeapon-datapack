@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "item_model": "theheroweapons:slimyboots"
+      }
+    },
+    "title": "Jumpy boy!",
+    "description": "Boing! Boing! Equip your slimy boots and jump higher!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "theheroweapons:bravery/slimyways",
+  "criteria": {
+    "equipped_slimyboots": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

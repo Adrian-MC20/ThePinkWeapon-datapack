@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": "First steps",
+    "description": "Make your first steps in a new pair of boots",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "theheroweapons:bravery/root",
+  "criteria": {
+    "has_leather_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:leather_boots"]
+          }
+        ]
+      }
+    }
+  }
+}
