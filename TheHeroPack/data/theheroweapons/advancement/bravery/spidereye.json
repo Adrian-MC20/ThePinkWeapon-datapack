@@ -4,22 +4,23 @@
       "id": "minecraft:spider_eye"
     },
     "title": "You got braver",
-    "description": "Muster some courage and take this spider eye",
+    "description": "Muster some courage and take a spider's eye",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
   "parent": "theheroweapons:bravery/egg",
   "criteria": {
-    "trigger": {
+    "has_spider_eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:spider_eye"
+            "items": ["minecraft:spider_eye"]
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [["has_spider_eye"]]
 }

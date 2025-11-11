@@ -11,12 +11,12 @@
   },
   "parent": "theheroweapons:bravery/spidereye",
   "criteria": {
-    "trigger": {
+    "has_fermented_spider_eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:fermented_spider_eye"
+            "items": ["minecraft:fermented_spider_eye"]
           }
         ]
       }

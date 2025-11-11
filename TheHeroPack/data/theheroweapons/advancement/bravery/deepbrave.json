@@ -5,13 +5,13 @@
     },
     "title": "Be DEEPLY brave",
     "description": "Go deeper!! on your bravery",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },
   "parent": "theheroweapons:bravery/spidereye",
   "criteria": {
-    "trigger": {
+    "go_to_nether": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
         "from": "minecraft:overworld",

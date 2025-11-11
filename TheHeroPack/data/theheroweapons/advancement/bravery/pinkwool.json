@@ -10,12 +10,12 @@
   },
   "parent": "theheroweapons:bravery/pinkcolor",
   "criteria": {
-    "trigger": {
+    "has_pink_wool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_wool"
+            "items": ["minecraft:pink_wool"]
           }
         ]
       }

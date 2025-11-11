@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword",
+      "components": {
+        "minecraft:item_model": "theheroweapons:pinksword"
+    }
+  },
+    "title": { "text": "Make it PINK!", "color": "light_purple" },
+    "description": "Grab some ingredients and show your true self.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "theheroweapons:bravery/precioussword",
+  "criteria": {
+    "made_pinksword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "theheroweapons:pinksword"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "theheroweapons:pinkweapon"
+    ]
+  }
+}

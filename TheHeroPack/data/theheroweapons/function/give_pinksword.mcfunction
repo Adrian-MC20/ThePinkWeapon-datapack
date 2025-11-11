@@ -1,0 +1,1 @@
+give @p minecraft:golden_sword[item_name={"text":"Pink Sword","color":"#CC55AA","italic":false},lore=[{"text":"The sword of a brave buoy","color":"#AA1177","italic":false}],item_model="theheroweapons:pinksword",max_damage=25,attribute_modifiers=[{id:"theheroweapons:pinksword.damage",type:"minecraft:attack_damage",amount:36.0,operation:"add_value",slot:"mainhand"}]]

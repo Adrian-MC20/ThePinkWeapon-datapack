@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword",
+      "components": {
+        "minecraft:item_model": "theheroweapons:pinkweapon"
+}
+    },
+    "title": { "text": "True Hero Bravery", "color": "light_purple" },
+    "description": "Be pround of your bravery for getting something hard, strong long and PINK",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "theheroweapons:bravery/makepinksword",
+  "criteria": {
+    "made_pinkweapon": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "theheroweapons:pinkweapon"
+      }
+    }
+  }
+}

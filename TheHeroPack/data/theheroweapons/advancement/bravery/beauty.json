@@ -11,18 +11,16 @@
   },
   "parent": "theheroweapons:bravery/root",
   "criteria": {
-    "trigger": {
+    "has_flowers": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lily_of_the_valley"
-          },
-          {
-            "items": "minecraft:poppy"
+            "items": ["minecraft:lily_of_the_valley", "minecraft:poppy", "rose_bush", "minecraft:blue_orchid", "minecraft:allium", "minecraft:azure_bluet", "minecraft:red_tulip", "minecraft:orange_tulip", "minecraft:white_tulip", "minecraft:pink_tulip", "minecraft:oxeye_daisy", "minecraft:cornflower", "minecraft:sunflower", "minecraft:lilac", "minecraft:peony", "minecraft:rose_bush"]
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [["has_flowers"]]
 }

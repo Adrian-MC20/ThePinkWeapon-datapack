@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": "Myyyy preeecciousssss",
+    "description": "Steal something shiny and precious from the piggies",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "theheroweapons:bravery/deepbrave",
+  "criteria": {
+    "has_golden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:golden_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "theheroweapons:pinksword"
+    ]
+  }
+}

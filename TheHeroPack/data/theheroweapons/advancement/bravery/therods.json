@@ -1,26 +1,25 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:egg"
+      "id": "minecraft:blaze_rod"
     },
-    "title": "Cot-codaaac!!!",
-    "description": "Are you a chicken?",
+    "title": "Essential rods",
+    "description": "Get something firm and strong... like a rod!",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "theheroweapons:bravery/root",
+  "parent": "theheroweapons:bravery/deepbrave",
   "criteria": {
-    "has_egg": {
+    "has_blaze_rod": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:egg"]
+            "items": ["minecraft:blaze_rod"]
           }
         ]
       }
     }
-  },
-  "requirements": [["has_egg"]]
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword",
+      "components": {
+        "minecraft:item_model": "theheroweapons:pinkweapon"
+}
+    },
+    "title": { "text": "Take you bravery", "color": "light_purple" },
+    "description": "You sad down and took it bravely",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "theheroweapons:bravery/makepinkweapon",
+  "criteria": {
+    "used_pinkweapon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+            "direct_entity": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                        "items": ["minecraft:golden_sword"],
+                        "components": {
+                            "minecraft:item_model": "theheroweapons:pinkweapon"
+                        }
+                    }
+                }
+            }
+        }
+      }
+    }
+  },
+  "requirements": [["used_pinkweapon"]]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:pink_dye",
+    "W": "minecraft:pink_wool",
+    "S": "minecraft:golden_sword"
+  },
+  "pattern": [
+    " D ",
+    " S ",
+    " W "
+  ],
+  "result": {
+    "id": "minecraft:golden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": { "text": "Pink Sword", "color": "#CC55AA", "italic": false },
+      "minecraft:lore": [
+        { "text": "The sword of a brave buoy", "color": "#AA1177", "italic": false }
+      ],
+      "minecraft:item_model": "theheroweapons:pinksword",
+      "minecraft:max_damage": 25,
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "theheroweapons:pinksword.damage",
+          "type": "minecraft:attack_damage",
+          "amount": 36.0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}
